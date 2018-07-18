@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)http://localhost/bjc-r/conferences/AA_selim/MOSLesson.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+        
+        
+		<script async="" src="./multiplicationgame_files/analytics.js"></script><script type="text/javascript" src="./multiplicationgame_files/loader.js"></script><link href="./multiplicationgame_files/bootstrap-compiled.min.css" type="text/css" rel="stylesheet"><script src="./multiplicationgame_files/llab.js" type="text/javascript"></script><script src="./multiplicationgame_files/jquery.min.js" type="text/javascript"></script><script src="./multiplicationgame_files/library.js" type="text/javascript"></script><script src="./multiplicationgame_files/multiplechoice.js" type="text/javascript"></script>
+		<script type="text/javascript" src="./multiplicationgame_files/gifffer.min.js"></script>
+        <script type="text/javascript">window.onload = function() {Gifffer();}</script>
+        <link rel="stylesheet" type="text/css" href="./multiplicationgame_files/bjc-gifffer.css">
+	
+    <title>Introduction to Programming</title>
+	<link href="./multiplicationgame_files/default.css" type="text/css" rel="stylesheet"><link href="./multiplicationgame_files/bjc.css" type="text/css" rel="stylesheet"><script src="./multiplicationgame_files/bootstrap.min.js" type="text/javascript"></script><script src="./multiplicationgame_files/curriculum.js" type="text/javascript"></script><script src="./multiplicationgame_files/course.js" type="text/javascript"></script><script src="./multiplicationgame_files/topic.js" type="text/javascript"></script><script src="./multiplicationgame_files/quiz.js" type="text/javascript"></script><meta name="viewport" content="width=device-width, initial-scale=1"><link href="./multiplicationgame_files/tomorrow-night-blue.css" type="text/css" rel="stylesheet"><script src="./multiplicationgame_files/highlight.min.js" type="text/javascript" onload="llab.highlightSyntax()"></script><link href="./multiplicationgame_files/katex.min.css" type="text/css" rel="stylesheet"><script src="./multiplicationgame_files/katex.min.js" type="text/javascript" onload="llab.displayMathDivs()"></script></head>
+    
+    
+	<body style="padding-top: 43px;"><nav class="llab-nav navbar navbar-default navbar-fixed-top" role="navigation"><div class="nav navbar-nav navbar-left navbar-title">Introduction to Programming</div><div class="nav navbar-nav navbar-right"><ul class="nav-btns btn-group"></ul></div></nav><div class="title-small-screen">Introduction to Programming</div><div class="full">
+<h2>Multiplication Game</h2>
+<div class="learn">
+<p>Arthur needs to learn his multiplication tables.  These days everyone at his home seems too busy to be able to help him.  Today you will build Arthur a game where, with the help of the Scratch Cat, he can practice his multiplication skills.</p>
+         <img class="indent" data-gifffer="./multiplicationgame_files/multipGameIntroAnim.gif"  height="330" alt=""/>
+
+
+
+</div>
+
+    </div>
+
+		
+		<div class="forYouToDo">
+            <ol start="1">
+            <li>Click on the image above to see an animation of the game.</li>
+            	<li>Go to the <a href="https://scratch.mit.edu/" target="_blank">Scratch website</a>, login to your account and create a new project.  Title the project as "Multiplication Game".</li>
+                <li> When the game starts, have the Scratch Cat greet the player and tell a bit about the game.
+                    <a href="http://localhost/bjc-r/conferences/AA_selim/MOSLesson.html#hint-1" data-toggle="collapse" class="collapsed" title="More information">Click here for a hint.</a>
+                            <div id="hint-1" class="collapse">
+                                These blocks may help: <br>
+                                <img class="indent" src="./multiplicationgame_files/greenflag.png" height="70" alt="">
+                                <img src="./multiplicationgame_files/say.png" height="50" alt=""><img src="./multiplicationgame_files/welcome.png" height="200" alt="">
+                        	</div>
+                      
+                </li>
+                <li>The Scratch Cat will choose two random numbers (1 through 10) and will ask the player to multiply them.  You will use random numbers, because each time a new game is played, a new pair of numbers needs to be multiplied.  Create two variables, <var>first number</var> and <var>second number</var>, which will be used to store these random numbers.
+                <a href="http://localhost/bjc-r/conferences/AA_selim/MOSLesson.html#hint-2" data-toggle="collapse" class="collapsed" title="More information">Click here for a hint.</a>
+                            <div id="hint-2" class="collapse">
+                                These may help: <br>
+                                <img class="indent" src="./multiplicationgame_files/createVar.png" height="250" alt=""><img src="./multiplicationgame_files/twovars.png" height="100" alt="">
+                        	</div>
+                
+                </li>
+                
+               
+                <li>Store random numbers (1 through 10) in both of these variables, <var>first number</var> and <var>second number</var>.
+                <a href="http://localhost/bjc-r/conferences/AA_selim/MOSLesson.html#hint-3" data-toggle="collapse" class="collapsed" title="More information">Click here for a hint.</a>
+                            <div id="hint-3" class="collapse">
+                                These blocks may help: <br>
+                                <img class="indent" src="./multiplicationgame_files/setnumbs.png" height="80" alt=""><img src="./multiplicationgame_files/random.png" height="40" alt="">
+                                
+                        	</div>
+                
+                </li>
+                <li>Have the Scratch Cat ask the player what the product of the two numbers is.
+                <a href="http://localhost/bjc-r/conferences/AA_selim/MOSLesson.html#hint-4" data-toggle="collapse" class="collapsed" title="More information">Click here for a hint.</a>
+                            <div id="hint-4" class="collapse">
+                                These blocks may help.  Note that you will need to <em>nest</em> several <code>join</code> blocks together: <br>
+                                <img class="indent" src="./multiplicationgame_files/ask.png" height="50" alt=""><img src="./multiplicationgame_files/join.png" height="40" alt=""><img src="./multiplicationgame_files/nestedjoin.png" height="50" alt=""><img src="./multiplicationgame_files/question.png" height="200" alt=""> <br>
+                                 <a href="http://localhost/bjc-r/conferences/AA_selim/MOSLesson.html#hint-5" data-toggle="collapse" class="collapsed" title="More information">If you still need a big hint, click here.</a>
+                            <div id="hint-5" class="collapse">
+                                <img class="indent" src="./multiplicationgame_files/nestedjoinanswer.png" height="50" alt="">
+                                
+                        	</div>
+                        	</div>
+                
+                </li>
+                <li>If the player correctly answers the multiplication question for the two numbers, have the Scratch Cat congratulate the player and let them know that the answer was correct.  Otherwise, let the player know that the answer was wrong and give the correct answer.
+                <a href="http://localhost/bjc-r/conferences/AA_selim/MOSLesson.html#hint-6" data-toggle="collapse" class="collapsed" title="More information">Click here for a hint.</a>
+                            <div id="hint-6" class="collapse">
+                                These may help: <br>
+                                <img class="indent" src="./multiplicationgame_files/ifelse.png" height="120" alt=""><img src="./multiplicationgame_files/answer.png" height="35" alt=""><img src="./multiplicationgame_files/equal.png" height="40" alt=""><img src="./multiplicationgame_files/product.png" height="40" alt=""><br>
+                                <img class="indent" src="./multiplicationgame_files/congrats.png" height="200" alt=""><img src="./multiplicationgame_files/sorry.png" height="200" alt="">
+                                
+                        	</div>
+                
+                </li>
+                <li>Test your program thoroughly to make sure that it is working as intended.  Consider all possible cases by entering correct and incorrect answers to the multiplication questions and checking that the Scratch Cat responds appropriately in each case .</li>
+                
+                
+          </ol>
+    </div>
+
+<!--<a href="#hint-X" data-toggle="collapse" class="collapsed" title="More information">Click here for a hint.</a>
+                            <div id="hint-X" class="collapse">
+                                These may help: <br />
+                                
+                        	</div>-->
+        
+            
+            
+        <div class="takeItFurther">
+            <ol type="A">
+            	<li>Choose a nice background for the Stage from Scratch's backdrop library.<br>
+                
+                <img src="./multiplicationgame_files/bcg1.png" height="250" alt=""><img src="./multiplicationgame_files/bcg2.png" height="250" alt=""><img src="./multiplicationgame_files/bcg3.png" height="250" alt="">
+                </li>
+                <li>If the player correctly answers the multiplication question, have the Scratch Cat do a little celebratory dance.  You can also use music or sound effects from Scratch's sound library.<br>
+                
+                    <img class="indent" data-gifffer="./multiplicationgame_files/catdance.gif"  height="250" alt=""/>
+                </li>
+                <li>With each click of the green flag have the Scratch Cat ask the player 10 multiplication questions while keeping a score of the number of times the player answers correctly.  At the end of the game have the Scratch Cat tell the player the score earned.</li>
+            </ol>
+        </div>
+
+</div></div></body></html>
